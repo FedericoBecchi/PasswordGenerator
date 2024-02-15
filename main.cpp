@@ -48,6 +48,7 @@ bool check_password(string password){
     int count_numeri = 0;
     int count_speciali = 0;
 
+
     for(int i = 0 ; i < password.length(); i++){
         isupper(password[i])    ? count_maiuscole++ : count_maiuscole;
         islower(password[i])    ? count_minuscole++ : count_minuscole;
